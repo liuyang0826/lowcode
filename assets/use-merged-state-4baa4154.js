@@ -1,0 +1,1 @@
+import{b as u,a as _,__tla as c}from"./federation-shared-a49272f9.js";let o,i=Promise.all([(()=>{try{return c}catch{}})()]).then(async()=>{const a=await _("vue"),n="watch",r="computed";o=function(t,e){return u(a,n)(t,l=>{l!==void 0&&(e.value=l)}),u(a,r)(()=>t.value===void 0?e.value:t.value)}});export{i as __tla,o as u};
