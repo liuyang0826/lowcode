@@ -1,0 +1,1 @@
+import{b as n,a as t}from"./federation-shared-d266eb0c.js";let o,v=(async()=>{let e,a,i,r,l;e=await n("vue"),a=await n("naive-ui"),i="NDivider",r="createVNode",l="defineComponent",o=t(e,l)({props:{meta:{type:Object,required:!0}},setup(p){return()=>t(e,r)(t(a,i),{vertical:p.meta.vertical},null)}})})();export{o as Divider,v as __tla};

@@ -1,0 +1,1 @@
+import{a as s,b as l,__tla as n}from"./federation-shared-c16daac1.js";let t,o=Promise.all([(()=>{try{return n}catch{}})()]).then(async()=>{const a=await s("@rdx/shared"),e="request";t=async function(r){return(await l(a,e)({url:"/api/lowcode/setting/getItemById",method:"get",params:r})).data}});export{o as __tla,t as g};

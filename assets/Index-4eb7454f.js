@@ -1,0 +1,1 @@
+import{b as r,a as l,__tla as n}from"./federation-shared-c16daac1.js";let a,o=Promise.all([(()=>{try{return n}catch{}})()]).then(async()=>{let t,e;t=await l("vue"),e="defineComponent",a=r(t,e)({setup(){return()=>"Not Found"}})});export{o as __tla,a as default};

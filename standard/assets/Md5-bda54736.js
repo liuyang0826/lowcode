@@ -1,0 +1,1 @@
+import{b as r,a as d}from"./federation-shared-d266eb0c.js";let n,l=(async()=>{let e,t,a,s;e=await r("@lowcode-fe/designer/designer"),t=await r("vue"),a="defineComponent",s="useRegisterVar",n=d(t,a)({setup(){return d(e,s)(i=>{i("md5","$s.md5","md5\u5E93")}),()=>null}})})();export{n as Md5,l as __tla};
