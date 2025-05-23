@@ -1,0 +1,4 @@
+import{b as n,a as t}from"./federation-shared-d266eb0c.js";let d,u=(async()=>{let s,p,l,i,r;s=await n("@lowcode-fe/designer/designer"),p=await n("vue"),l="createVNode",i="ExpressionInput",r="defineComponent",d=t(p,r)({props:{meta:{type:Object,required:!0}},setup(a){return()=>t(p,l)("div",{class:"un-px-12px un-pt-12px"},[t(p,l)(t(s,i),{label:"\u8DEF\u5F84",isExpr:a.meta.isExprPath,"onUpdate:isExpr":e=>a.meta.isExprPath=e,value:a.meta.path,"onUpdate:value":e=>a.meta.path=e,switchable:!0},null),t(p,l)(t(s,i),{label:"id",isExpr:a.meta.isExprId,"onUpdate:isExpr":e=>a.meta.isExprId=e,value:a.meta.id,"onUpdate:value":e=>a.meta.id=e,switchable:!0},null),t(p,l)(t(s,i),{label:"\u81EA\u5B9A\u4E49\u5C5E\u6027",value:a.meta.props,"onUpdate:value":e=>a.meta.props=e,defaultValue:`({
+  //
+})
+`},null)])}})})();export{d as Page,u as __tla};
