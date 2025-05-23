@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="zh-cn"><head><title>页面设计器</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><style type="text/css">
+  .global-spin {
+    width: 100%;
+    height: 40px;
+    margin: calc(50vh - 20px) auto;
+    text-align: center;
+  }
+  .global-spin span {
+    width: 5px;
+    height: 100%;
+    display: inline-block;
+    background: #4970ff;
+    animation: global-spin 1.2s infinite ease-in-out;
+  }
+  .global-spin > span:nth-child(2) {
+    animation-delay: -1s;
+  }
+  .global-spin > span:nth-child(3) {
+    animation-delay: -0.9s;
+  }
+  .global-spin > span:nth-child(4) {
+    animation-delay: -0.8s;
+  }
+  .global-spin > span:nth-child(5) {
+    animation-delay: -0.7s;
+  }
+  @keyframes global-spin {
+    0% {
+      transform: scaleY(0.4);
+    }
+    25% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(0.4);
+    }
+    75% {
+      transform: scaleY(0.4);
+    }
+    100% {
+      transform: scaleY(0.4);
+    }
+  }
+</style>
+  <script type="module" crossorigin src="./assets/index-fd6adccc.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/federation-shared-49c8c119.js">
+  <link rel="modulepreload" crossorigin href="./assets/generated-pages_id_~pages-b122f00f.js">
+  <link rel="stylesheet" href="./assets/index-9c52b632.css">
+</head><body><div class="global-spin" style="display:none;">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<script>
+window.__GLOBAL_SPIN_TIMER__ = setTimeout(function() {
+  document.querySelector(".global-spin").style.display = ""
+}, 300)
+</script><div id="app"></div></body></html>
