@@ -1,0 +1,1 @@
+.un-grid{display:grid}.un-grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.un-gap-x-8px{column-gap:8px}.un-px-12px{padding-left:12px;padding-right:12px}.un-pt-12px{padding-top:12px}
